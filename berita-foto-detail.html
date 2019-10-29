@@ -540,7 +540,16 @@
         centerMode: true,
         focusOnSelect: true,
         nextArrow: '<button class="next arrows"><i class="fas fa-angle-right"></i></button>',
-        prevArrow: '<button class="prev arrows"><i class="fas fa-angle-left"></i></button>'
+        prevArrow: '<button class="prev arrows"><i class="fas fa-angle-left"></i></button>',
+        responsive: [
+          {
+            breakpoint: 480,
+            settings: {
+              centerPadding: '40px',
+              slidesToShow: 3,
+            }
+          }
+        ]
       });
     </script>
 </body>

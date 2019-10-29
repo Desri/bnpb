@@ -394,6 +394,12 @@ body {
   width: 35px;
   float: left;
 }
+@media screen and (max-width: 480px) {
+  #main .detail-page .detail-berita .related .prev .imgArrowLeft {
+    width: 30px;
+    padding-top: 20px;
+  }
+}
 #main .detail-page .detail-berita .related .prev .imgArrowLeft img {
   width: 20px;
   float: left;
@@ -404,10 +410,20 @@ body {
   width: 85%;
   float: left;
 }
+@media screen and (max-width: 480px) {
+  #main .detail-page .detail-berita .related .prev .textPrev {
+    width: 75%;
+  }
+}
 #main .detail-page .detail-berita .related .prev .textPrev p {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 0px;
+}
+@media screen and (max-width: 480px) {
+  #main .detail-page .detail-berita .related .prev .textPrev p {
+    line-height: 16px;
+  }
 }
 #main .detail-page .detail-berita .related .next {
   float: right;
@@ -423,10 +439,20 @@ body {
   font-size: 14px;
   margin-bottom: 0px;
 }
+@media screen and (max-width: 480px) {
+  #main .detail-page .detail-berita .related .next .textPrevLeft p {
+    line-height: 17px;
+  }
+}
 #main .detail-page .detail-berita .related .next .imgArrowRight {
   width: 30px;
   float: right;
   text-align: center;
+}
+@media screen and (max-width: 480px) {
+  #main .detail-page .detail-berita .related .next .imgArrowRight {
+    padding-top: 20px;
+  }
 }
 #main .detail-page .detail-berita .related .next .imgArrowRight img {
   width: 20px;
@@ -444,6 +470,13 @@ body {
 }
 #main .breadcrumbs ol li.current a {
   color: #ef8300;
+}
+#main .berita-foto .slick-slide img {
+  width: 100%;
+}
+#main .berita-foto .slick-initialized .slick-slide {
+  margin-left: 1px;
+  margin-right: 1px;
 }
 #main .berita-foto .slider .img img {
   width: 100%;
@@ -502,6 +535,11 @@ body {
 #main .foto-detail .descDetailImg {
   padding: 15px;
   background: #edf4fc;
+}
+@media screen and (max-width: 480px) {
+  #main .foto-detail .descDetailImg {
+    margin-top: 15px;
+  }
 }
 #main .foto-detail .descDetailImg .heading h2 {
   color: #00499d;
@@ -578,10 +616,22 @@ body {
   z-index: 1;
   left: -10px;
 }
+@media screen and (max-width: 480px) {
+  #main .foto-detail .slider-nav button.prev {
+    top: 20%;
+    padding: 3px 10px;
+  }
+}
 #main .foto-detail .slider-nav button.next {
   top: 25%;
   z-index: 1;
   right: -10px;
+}
+@media screen and (max-width: 480px) {
+  #main .foto-detail .slider-nav button.next {
+    top: 20%;
+    padding: 3px 10px;
+  }
 }
 
 .sidebar {
