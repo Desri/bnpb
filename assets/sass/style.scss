@@ -325,6 +325,30 @@ body{
 }
 
 #main{
+  .gallery-foto {
+    .card-gallery {
+      box-shadow: 1px 1px 4px #dedede;
+      .card-body {
+        padding: 10px;
+        h4.card-title {
+        line-height: 16px;
+          a {
+            color: #000000;
+            font-size: 16px;
+            font-weight: 600;
+            &:hover {
+              color: #00499d;
+              text-decoration: none;
+            }
+          }
+        }
+        p.card-text {
+          color: #a7a7a7;
+          font-size: 13px;
+        }
+      }
+    }
+  }
   .content-column-wrapper{
       padding: 30px 0;
   }
