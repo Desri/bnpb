@@ -325,7 +325,31 @@ body{
 }
 
 #main{
+  .headingPage {
+    background: #d2d2d2;
+    margin-bottom: 20px;
+    padding: 50px 0px 35px 0px;
+    .colHeadingPage {
+      h2 {
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 0px;
+      }
+    }
+  }
   .gallery-foto {
+    .nav-tabs {
+      li {
+        width: 150px;
+        a {
+          color: #a7a7a7;
+          font-size: 14px;
+          &.active {
+            color: #000000;
+          }
+        }
+      }
+    }
     .card-gallery {
       box-shadow: 1px 1px 4px #dedede;
       .card-body {
@@ -345,6 +369,114 @@ body{
         p.card-text {
           color: #a7a7a7;
           font-size: 13px;
+        }
+      }
+      .galleryImage {
+        position: relative;
+        .iconImage {
+          top: 5px;
+          right: 5px;
+          position: absolute;
+          .bgIcon {
+            width: 25px;
+            height: 25px;
+            background: #dddddd;
+            border-radius: 50%;
+            text-align: center;
+            span {
+              top: -1px;
+              font-size: 10px;
+              position: relative;
+            }
+          }
+        }
+      }
+    }
+    .paging {
+      ul {
+        li {
+          a {
+            font-size: 13px;
+            color: #00499d;
+            font-weight: 600;
+            &:hover {
+              color: #ffffff;
+              background-color: #00499d;
+            }
+          }
+          &.disabled {
+            a {
+              color: #a7a7a7;
+            }
+          }
+        }
+      }
+      .countPaging {
+        float: left;
+        @media screen and (max-width:480px) {
+          display: none;
+        }
+        p {
+          font-size: 12px;
+          padding-top: 5px;
+          margin-bottom: 0px;
+          span {
+            color: #bdbdbd;
+          }
+        }
+      }
+    }
+  }
+  .tugasFungsi {
+    .sidebarLeft {
+      .imgSidebarLeft {
+        margin-bottom: 60px;
+        img {
+          width: 40%;
+        }
+      }
+      .menuProfile {
+        .menus {
+          h2 {
+            color: #00499d;
+            font-size: 21px;
+            font-weight: 600;
+            border-bottom: 2px solid #00499d;
+          }
+          ul {
+            padding-top: 20px;
+            padding-left: 15px;
+            li {
+              list-style: none;
+              margin-bottom: 10px;
+              a {
+                color: #222222;
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .contentProfil {
+      .tugas {
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #dddddd;
+      }
+      .headingProfil {
+        h2 {
+          font-weight: 600;
+          font-size: 24px;
+        }
+      }
+      .listProfile {
+        ol {
+          li {
+            p {
+              font-size: 14px;
+            }
+          }
         }
       }
     }
@@ -1234,6 +1366,9 @@ body{
         }
     }
     .subscriber{
+      label {
+        font-size: 13px;
+      }
         form{
             input{
                 background-color: #eeefef;

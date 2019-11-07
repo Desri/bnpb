@@ -284,6 +284,26 @@ body {
   }
 }
 
+#main .headingPage {
+  background: #d2d2d2;
+  margin-bottom: 20px;
+  padding: 50px 0px 35px 0px;
+}
+#main .headingPage .colHeadingPage h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+#main .gallery-foto .nav-tabs li {
+  width: 150px;
+}
+#main .gallery-foto .nav-tabs li a {
+  color: #a7a7a7;
+  font-size: 14px;
+}
+#main .gallery-foto .nav-tabs li a.active {
+  color: #000000;
+}
 #main .gallery-foto .card-gallery {
   box-shadow: 1px 1px 4px #dedede;
 }
@@ -305,6 +325,90 @@ body {
 #main .gallery-foto .card-gallery .card-body p.card-text {
   color: #a7a7a7;
   font-size: 13px;
+}
+#main .gallery-foto .card-gallery .galleryImage {
+  position: relative;
+}
+#main .gallery-foto .card-gallery .galleryImage .iconImage {
+  top: 5px;
+  right: 5px;
+  position: absolute;
+}
+#main .gallery-foto .card-gallery .galleryImage .iconImage .bgIcon {
+  width: 25px;
+  height: 25px;
+  background: #dddddd;
+  border-radius: 50%;
+  text-align: center;
+}
+#main .gallery-foto .card-gallery .galleryImage .iconImage .bgIcon span {
+  top: -1px;
+  font-size: 10px;
+  position: relative;
+}
+#main .gallery-foto .paging ul li a {
+  font-size: 13px;
+  color: #00499d;
+  font-weight: 600;
+}
+#main .gallery-foto .paging ul li a:hover {
+  color: #ffffff;
+  background-color: #00499d;
+}
+#main .gallery-foto .paging ul li.disabled a {
+  color: #a7a7a7;
+}
+#main .gallery-foto .paging .countPaging {
+  float: left;
+}
+@media screen and (max-width: 480px) {
+  #main .gallery-foto .paging .countPaging {
+    display: none;
+  }
+}
+#main .gallery-foto .paging .countPaging p {
+  font-size: 12px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+#main .gallery-foto .paging .countPaging p span {
+  color: #bdbdbd;
+}
+#main .tugasFungsi .sidebarLeft .imgSidebarLeft {
+  margin-bottom: 60px;
+}
+#main .tugasFungsi .sidebarLeft .imgSidebarLeft img {
+  width: 40%;
+}
+#main .tugasFungsi .sidebarLeft .menuProfile .menus h2 {
+  color: #00499d;
+  font-size: 21px;
+  font-weight: 600;
+  border-bottom: 2px solid #00499d;
+}
+#main .tugasFungsi .sidebarLeft .menuProfile .menus ul {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+#main .tugasFungsi .sidebarLeft .menuProfile .menus ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+#main .tugasFungsi .sidebarLeft .menuProfile .menus ul li a {
+  color: #222222;
+  font-size: 14px;
+}
+#main .tugasFungsi .contentProfil .tugas {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dddddd;
+}
+#main .tugasFungsi .contentProfil .headingProfil h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+#main .tugasFungsi .contentProfil .listProfile ol li p {
+  font-size: 14px;
 }
 #main .content-column-wrapper {
   padding: 30px 0;
@@ -1141,6 +1245,9 @@ body {
   #footer .twitter-feed iframe {
     min-width: 100% !important;
   }
+}
+#footer .subscriber label {
+  font-size: 13px;
 }
 #footer .subscriber form input {
   background-color: #eeefef;
