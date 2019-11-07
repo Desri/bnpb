@@ -284,6 +284,34 @@ body {
   }
 }
 
+#main .paging ul li a {
+  font-size: 13px;
+  color: #00499d;
+  font-weight: 600;
+}
+#main .paging ul li a:hover {
+  color: #ffffff;
+  background-color: #00499d;
+}
+#main .paging ul li.disabled a {
+  color: #a7a7a7;
+}
+#main .paging .countPaging {
+  float: left;
+}
+@media screen and (max-width: 480px) {
+  #main .paging .countPaging {
+    display: none;
+  }
+}
+#main .paging .countPaging p {
+  font-size: 12px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+#main .paging .countPaging p span {
+  color: #bdbdbd;
+}
 #main .headingPage {
   background: #d2d2d2;
   margin-bottom: 20px;
@@ -409,6 +437,102 @@ body {
 }
 #main .tugasFungsi .contentProfil .listProfile ol li p {
   font-size: 14px;
+}
+#main .tugasFungsi .listKerjasama {
+  overflow: hidden;
+}
+#main .tugasFungsi .listKerjasama .num {
+  width: 5%;
+  float: left;
+}
+#main .tugasFungsi .listKerjasama .num .bgNum {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  background: #eeefef;
+}
+#main .tugasFungsi .listKerjasama .num .bgNum p {
+  font-size: 12px;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama {
+  width: 95%;
+  float: left;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama p {
+  font-size: 14px;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama p.bron {
+  color: #afafaf;
+  font-style: italic;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .status .statusKerjasama {
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .status .statusKerjasama .boxKerjasama {
+  float: left;
+  width: 31%;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #ececec;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .status .statusKerjasama .boxKerjasama h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .status .statusKerjasama .boxKerjasama p {
+  font-size: 13px;
+  color: #9e9e9e;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .status .statusKerjasama .boxKerjasama:last-child {
+  border-right: 0px;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction {
+  overflow: hidden;
+  padding-top: 20px;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .action {
+  width: 40%;
+  float: left;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .action h3 {
+  font-size: 14px;
+  font-weight: 600;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .action p {
+  color: #9e9e9e;
+  font-size: 13px;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .colDownload {
+  width: 60%;
+  float: left;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .colDownload .download {
+  width: 150px;
+  float: right;
+  margin-top: 25px;
+  padding-top: 7px;
+  text-align: center;
+  border-radius: 3px;
+  background: #ef8300;
+  padding-bottom: 7px;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .colDownload .download a {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .colDownload .download a img {
+  width: 10px;
+}
+#main .tugasFungsi .listKerjasama .contentKerjasama .colAction .colDownload .download a:hover {
+  text-decoration: none;
 }
 #main .sejarah .sidebarLeft .imgSidebarLeft img {
   width: 60%;
