@@ -410,6 +410,50 @@ body {
 #main .tugasFungsi .contentProfil .listProfile ol li p {
   font-size: 14px;
 }
+#main .sejarah .sidebarLeft .imgSidebarLeft img {
+  width: 60%;
+}
+#main .sejarah .content .headingProfil h2 {
+  font-weight: 600;
+}
+#main .sejarah .content .contentSejarah {
+  margin-top: 20px;
+}
+#main .sejarah .content .contentSejarah p {
+  font-size: 14px;
+  padding-left: 20px;
+}
+#main .sejarah .colthumbSejarah .listSejarah {
+  text-align: center;
+}
+#main .sejarah .colthumbSejarah .listSejarah .thumbSejarah img {
+  width: 85px;
+  margin-bottom: 15px;
+}
+#main .sejarah .colthumbSejarah .listSejarah .thumbSejarah p {
+  color: #00499d;
+  font-size: 20px;
+  font-weight: 700;
+}
+#main .sejarah .colthumbSejarah .listSejarah .imgCenter img {
+  width: 65px;
+}
+#main .sejarah .colthumbSejarah .listSejarah .contentThumb p {
+  font-size: 14px;
+}
+#main .sejarah .timelineSejarah {
+  background-color: #eeefef;
+}
+#main .sejarah .timelineSejarah .headingTimeline {
+  width: 55%;
+  margin: auto;
+}
+#main .sejarah .timelineSejarah .headingTimeline h2 {
+  color: #1c2e36;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+}
 #main .content-column-wrapper {
   padding: 30px 0;
 }
