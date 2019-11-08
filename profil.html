@@ -340,6 +340,104 @@
               <div class="col-lg-8">
                 <div class="contentProfil">
                   
+                  <ul id="myUL">
+                    <li>
+                      <div class="caret caretFirst">
+                        <div class="parent">
+                          <div class="titleParent">Menteri Komunikasi dan Informatika</div>
+                        </div>
+                      </div>
+                      <ul class="nested">
+                        <li>
+                          <div class="caret">
+                            <div class="parent">
+                              <div class="titleParent">Staf Ahli Menteri Kominikasi dan Informatika</div>
+                            </div>
+                          </div>
+                          <ul class="nested">
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li><span class="caret">Green Tea</span>
+                              <ul class="nested">
+                                <li>Sencha</li>
+                                <li>Gyokuro</li>
+                                <li>Matcha</li>
+                                <li>Pi Lo Chun</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <div class="caret">
+                            <div class="parent">
+                              <div class="titleParent">Sekretariat Jendral</div>
+                            </div>
+                          </div>
+                          <ul class="nested">
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <div class="caret">
+                            <div class="parent">
+                              <div class="titleParent">Sekretariat Jendral</div>
+                            </div>
+                          </div>
+                          <ul class="nested">
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <div class="caret">
+                            <div class="parent">
+                              <div class="titleParent">Sekretariat Jendral</div>
+                            </div>
+                          </div>
+                          <ul class="nested">
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <div class="caret">
+                            <div class="parent">
+                              <div class="titleParent">Sekretariat Jendral</div>
+                            </div>
+                          </div>
+                          <ul class="nested">
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <div class="caret">
+                            <div class="parent">
+                              <div class="titleParent">Sekretariat Jendral</div>
+                            </div>
+                          </div>
+                          <ul class="nested">
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                            <li>Staf Ahli Menteri Bidang Teknologi</li>
+                          </ul>
+                        </li>
+
+                      </ul>
+                    </li>
+                  </ul>
 
 
                 </div>
@@ -433,5 +531,18 @@
     <script type="text/javascript" src=https://widget.kominfo.go.id/gpr-widget-kominfo.min.js></script>
     <script src="assets/js/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+      var toggler = document.getElementsByClassName("caret");
+      var i;
+
+      for (i = 0; i < toggler.length; i++) {
+        toggler[i].addEventListener("click", function() {
+          this.parentElement.querySelector(".nested").classList.toggle("active");
+          this.classList.toggle("caret-down");
+        });
+      }
+    </script>
+
 </body>
 </html>

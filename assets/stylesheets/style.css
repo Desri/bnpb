@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
 body {
   margin: 0;
@@ -1578,6 +1579,60 @@ body {
     height: 65px;
   }
 }
+ul, #myUL {
+  list-style-type: none;
+}
+
+#myUL {
+  margin: 0;
+  padding: 0;
+}
+#myUL .caretFirst {
+  margin-bottom: 15px;
+}
+#myUL .parent {
+  margin-left: 25px;
+}
+#myUL .parent .titleParent {
+  width: 65%;
+  padding: 7px 20px;
+  border-radius: 5px;
+  border: 1px solid #ef8300;
+}
+#myUL .nested li {
+  margin-bottom: 15px;
+}
+
+.caret {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.caret::before {
+  content: "▶";
+  color: black;
+  float: left;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.caret-down::before {
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.nested {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
 #footer-bottom {
   background-color: #232b2b;
   color: rgba(255, 255, 255, 0.6);
