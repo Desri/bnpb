@@ -426,6 +426,10 @@ body {
   color: #222222;
   font-size: 14px;
 }
+#main .tugasFungsi .sidebarLeft .menuProfile .menus ul li a:hover {
+  color: #00499d;
+  text-decoration: none;
+}
 #main .tugasFungsi .contentProfil .tugas {
   margin-bottom: 40px;
   padding-bottom: 30px;
@@ -533,6 +537,10 @@ body {
 }
 #main .tugasFungsi .listKerjasama .contentKerjasama .colAction .colDownload .download a:hover {
   text-decoration: none;
+}
+#main .tugasFungsi .contentWorldbank {
+  height: 100%;
+  border: 1px solid #dddddd;
 }
 #main .sejarah .sidebarLeft .imgSidebarLeft img {
   width: 60%;

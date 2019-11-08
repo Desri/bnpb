@@ -486,6 +486,10 @@ body{
               a {
                 color: #222222;
                 font-size: 14px;
+                &:hover {
+                  color: #00499d;
+                  text-decoration: none;
+                }
               }
             }
           }
@@ -611,6 +615,10 @@ body{
           }
         }
       }
+    }
+    .contentWorldbank {
+      height: 100%;
+      border: 1px solid #dddddd;
     }
   }
   .sejarah {
