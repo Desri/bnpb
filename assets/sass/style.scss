@@ -1744,15 +1744,33 @@ ul, #myUL {
   .parent {
     margin-left: 25px;
     .titleParent {
-      width: 65%;
+      width: 70%;
       padding: 7px 20px;
       border-radius: 5px;
+      margin-bottom: 10px;
       border: 1px solid #ef8300;
+      box-shadow: 0px 2px 3px #888888;
+      img {
+        width: 70px;
+        float: right;
+        padding-top: 5px;
+      }
     }
   }
   .nested {
     li {
       margin-bottom: 15px;
+    }
+    li.child {
+      color: #00a1e0;
+      margin-top: 5px;
+      font-size: 15px;
+      margin-bottom: 5px;
+      img {
+        top: -1px;
+        width: 7px;
+        position: relative;
+      }
     }
   }
 }
