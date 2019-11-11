@@ -323,6 +323,20 @@ body {
   font-weight: 600;
   margin-bottom: 0px;
 }
+#main .headingPage .colHeadingPage .formSelect .form-group {
+  width: 50%;
+  float: right;
+}
+@media screen and (max-width: 480px) {
+  #main .headingPage .colHeadingPage .formSelect .form-group {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+#main .headingPage .colHeadingPage .formSelect .form-group select {
+  background: #f3f3f3;
+  border: 1px solid #b3b3b3;
+}
 #main .gallery-foto .nav-tabs li {
   width: 150px;
 }
@@ -450,6 +464,11 @@ body {
   width: 5%;
   float: left;
 }
+@media screen and (max-width: 480px) {
+  #main .tugasFungsi .listKerjasama .num {
+    width: 10%;
+  }
+}
 #main .tugasFungsi .listKerjasama .num .bgNum {
   width: 25px;
   height: 25px;
@@ -464,6 +483,11 @@ body {
 #main .tugasFungsi .listKerjasama .contentKerjasama {
   width: 95%;
   float: left;
+}
+@media screen and (max-width: 480px) {
+  #main .tugasFungsi .listKerjasama .contentKerjasama {
+    width: 90%;
+  }
 }
 #main .tugasFungsi .listKerjasama .contentKerjasama p {
   font-size: 14px;
@@ -485,6 +509,12 @@ body {
   margin-right: 15px;
   padding-right: 15px;
   border-right: 1px solid #ececec;
+}
+@media screen and (max-width: 480px) {
+  #main .tugasFungsi .listKerjasama .contentKerjasama .status .statusKerjasama .boxKerjasama {
+    width: 30%;
+    margin-right: 9px;
+  }
 }
 #main .tugasFungsi .listKerjasama .contentKerjasama .status .statusKerjasama .boxKerjasama h3 {
   font-size: 14px;

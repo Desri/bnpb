@@ -369,6 +369,20 @@ body{
         font-weight: 600;
         margin-bottom: 0px;
       }
+      .formSelect {
+        .form-group {
+          width: 50%;
+          float: right;
+          @media screen and (max-width:480px) {
+            width: 100%;
+            margin-top: 20px;
+          }
+          select {
+            background: #f3f3f3;
+            border: 1px solid #b3b3b3;
+          }
+        }
+      }
     }
   }
   .gallery-foto {
@@ -523,6 +537,9 @@ body{
       .num {
         width: 5%;
         float: left;
+        @media screen and (max-width:480px) {
+          width: 10%;
+        }
         .bgNum {
           width: 25px;
           height: 25px;
@@ -538,6 +555,9 @@ body{
       .contentKerjasama {
         width: 95%;
         float: left;
+        @media screen and (max-width:480px) {
+          width: 90%;
+        }
         p {
           font-size: 14px;
           &.bron {
@@ -558,6 +578,10 @@ body{
               margin-right: 15px;
               padding-right: 15px;
               border-right: 1px solid #ececec;
+              @media screen and (max-width:480px) {
+                width: 30%;
+                margin-right: 9px;
+              }
               h3 {
                 font-size: 14px;
                 font-weight: 600;
@@ -1632,7 +1656,7 @@ body{
 .timeline p {
   font-size: 13px;
   padding: 5px 15px 5px 25px;
-} 
+}
 
 .timeline::before {
   content: "";
@@ -1690,7 +1714,7 @@ body{
 /*small device style*/
 
 @media (max-width: 767px) {
-  
+
   .timeline::before {
     content: "";
     display: block;
@@ -1777,7 +1801,7 @@ ul, #myUL {
 
 .caret {
   cursor: pointer;
-  -webkit-user-select: none; 
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -1794,7 +1818,7 @@ ul, #myUL {
 .caret-down::before {
   -ms-transform: rotate(90deg);
   -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);  
+  transform: rotate(90deg);
 }
 
 .nested {
