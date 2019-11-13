@@ -1808,6 +1808,9 @@ ul, #myUL {
       margin-bottom: 10px;
       border: 1px solid #ef8300;
       box-shadow: 0px 2px 3px #888888;
+      @media screen and (max-width:667px) {
+        width: 100%;
+      }
       img {
         width: 70px;
         float: right;
