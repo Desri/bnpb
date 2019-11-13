@@ -579,6 +579,9 @@ body {
   height: 100%;
   border: 1px solid #dddddd;
 }
+#main .sejarah {
+  padding-bottom: 0px !important;
+}
 #main .sejarah .sidebarLeft .imgSidebarLeft img {
   width: 60%;
 }
@@ -616,6 +619,11 @@ body {
 #main .sejarah .timelineSejarah .headingTimeline {
   width: 55%;
   margin: auto;
+}
+@media screen and (max-width: 480px) {
+  #main .sejarah .timelineSejarah .headingTimeline {
+    width: 100%;
+  }
 }
 #main .sejarah .timelineSejarah .headingTimeline h2 {
   color: #1c2e36;
@@ -1589,6 +1597,7 @@ body {
     height: 100%;
     z-index: 1;
     transform: translateX(-50%);
+    display: none;
   }
 
   .timeline h3 {
@@ -1603,6 +1612,7 @@ body {
     position: absolute;
     left: 0%;
     top: 60px;
+    display: none;
     /*transform: translateX(-50%;);*/
   }
 
@@ -1613,6 +1623,25 @@ body {
   .timeline-image::before {
     width: 65px;
     height: 65px;
+  }
+}
+@media (max-width: 480px) {
+  .timeline p {
+    font-size: 13px;
+  }
+
+  .timeline-content {
+    width: 20% !important;
+    max-width: 20% !important;
+    order: inherit;
+    float: left;
+    position: absolute;
+    left: 0;
+  }
+  .timeline-content time {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
   }
 }
 ul, #myUL {
