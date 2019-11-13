@@ -347,6 +347,11 @@ body {
 #main .gallery-foto .nav-tabs li a.active {
   color: #000000;
 }
+@media screen and (max-width: 480px) {
+  #main .gallery-foto .tab-content #home {
+    padding-top: 0px !important;
+  }
+}
 #main .gallery-foto .card-gallery {
   box-shadow: 1px 1px 4px #dedede;
 }

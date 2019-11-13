@@ -398,6 +398,14 @@ body{
         }
       }
     }
+    @media screen and (max-width:480px) {
+      .tab-content {
+        #home {
+          padding-top: 0px !important;
+        }
+      }
+    }
+
     .card-gallery {
       box-shadow: 1px 1px 4px #dedede;
       .card-body {
