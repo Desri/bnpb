@@ -1678,6 +1678,7 @@ ul, #myUL {
   color: #00a1e0;
   margin-top: 5px;
   font-size: 15px;
+  cursor: pointer;
   margin-bottom: 5px;
 }
 #myUL .nested li.child img {
@@ -1714,6 +1715,52 @@ ul, #myUL {
 
 .active {
   display: block;
+}
+
+#modalProfil .modal-content {
+  border-radius: 13px;
+}
+#modalProfil .modal-content .modal-body {
+  padding: 0px;
+}
+#modalProfil .modal-content .modal-body button {
+  top: 8px;
+  right: 10px;
+  position: absolute;
+  background: #ffffff;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+#modalProfil .modal-content .modal-body button span {
+  font-size: 25px;
+}
+#modalProfil .modal-content .modal-body .headPopup {
+  text-align: center;
+}
+#modalProfil .modal-content .modal-body .headPopup .imgAvatar img {
+  width: 100%;
+}
+#modalProfil .modal-content .modal-body .headPopup .imgProfile img {
+  width: 40%;
+  margin-top: -80px;
+}
+#modalProfil .modal-content .modal-body .headPopup .nameAvatar {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+#modalProfil .modal-content .modal-body .headPopup .nameAvatar h2 {
+  color: #00499d;
+  font-size: 22px;
+  font-weight: bolder;
+}
+#modalProfil .modal-content .modal-body .headPopup .footerPopup {
+  padding: 20px 15px;
+  background: #f5f5f5;
+}
+#modalProfil .modal-content .modal-body .headPopup .footerPopup h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
 }
 
 #footer-bottom {
