@@ -6,6 +6,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.noBorder {
+  border: 0px !important;
+}
+
 #twitter-widget-0 {
   height: 250px !important;
 }
@@ -450,6 +454,65 @@ body {
 #main .tugasFungsi .sidebarLeft .menuProfile .menus ul li a:hover {
   color: #00499d;
   text-decoration: none;
+}
+#main .tugasFungsi .contentProfil .table thead th {
+  color: #505050;
+  font-weight: 600;
+}
+#main .tugasFungsi .contentProfil .table td, #main .tugasFungsi .contentProfil .table th {
+  font-size: 14px;
+}
+#main .tugasFungsi .contentProfil .formContent {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#main .tugasFungsi .contentProfil .formContent form .labelInput {
+  width: 69.8%;
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+}
+#main .tugasFungsi .contentProfil .formContent form .labelInput label {
+  color: #505050;
+  font-size: 14px;
+  font-weight: 600;
+}
+#main .tugasFungsi .contentProfil .formContent form .inputSearch {
+  width: 28%;
+  float: left;
+  text-align: right;
+}
+#main .tugasFungsi .contentProfil .formContent form .inputSearch input {
+  font-size: 13px;
+}
+#main .tugasFungsi .contentProfil .formContent form .inputSearch button {
+  border: 0px;
+  margin-top: -65px;
+  background: transparent;
+}
+#main .tugasFungsi .contentProfil .formContent form .inputSearch button i {
+  color: #dddddd;
+}
+#main .tugasFungsi .contentProfil .formContent .btnActions {
+  text-align: right;
+  margin-bottom: 20px;
+}
+#main .tugasFungsi .contentProfil .formContent .btnActions button.btnSurat {
+  color: #00499d;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: transparent;
+}
+#main .tugasFungsi .contentProfil .formContent .btnActions button.btnPeraturan {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #ef8300;
+  border: 1px solid #ef8300;
 }
 #main .tugasFungsi .contentProfil .tugas {
   margin-bottom: 40px;
