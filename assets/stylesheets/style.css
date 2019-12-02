@@ -1043,6 +1043,35 @@ body {
     padding: 3px 10px;
   }
 }
+#main .kontak .imgKontak {
+  position: relative;
+}
+#main .kontak .imgKontak .colAddress {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #ffffff;
+  padding: 15px 30px;
+}
+#main .kontak .imgKontak .colAddress h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#main .kontak .imgKontak .colAddress h3 {
+  font-size: 14px;
+}
+#main .kontak .imgKontak .colAddress p {
+  margin-bottom: 0px;
+}
+#main .kontak .imgKontak .colAddress p img {
+  width: 15px;
+  margin-right: 10px;
+}
+#main .kontak .mapsKontak .maps iframe {
+  width: 100%;
+  height: 350px;
+}
 
 .sidebar {
   color: #1c2e36;
